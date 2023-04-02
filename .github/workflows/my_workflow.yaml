@@ -1,11 +1,7 @@
 Name: Starter Workflow Demo
 on:
-  release:
-    branches:
-      - master
-      - main
-      - 'test'
-
+  release
+  
 jobs:
   release:
     runs-on: ubuntu-latest
